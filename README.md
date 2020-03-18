@@ -7,7 +7,7 @@ label-element-elementid-page-filetype/ext. if element id is null does not accoun
 [x] upload img files to twitch-coaches wsl:ubuntu
 [x] internal page links list in this file under a `###` heading
 [x] create internal pages using `.html` extenstion
-[ ] write content for index.html (*Home Page*)
+[x] write content for index.html (*Home Page*)
 [ ] run ACP via command line
 [ ] submit assignment
 
