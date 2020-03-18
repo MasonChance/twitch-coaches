@@ -4,7 +4,7 @@ personal formatting preference regarding file names.
 label-element-elementid-page-filetype/ext. if element id is null does not account for multiple identical elements in page
 
 ## Todo
-[ ] upload img files to twitch-coaches wsl:ubuntu
+[x] upload img files to twitch-coaches wsl:ubuntu
 [x] internal page links list in this file under a `###` heading
 [x] create internal pages using `.html` extenstion
 [ ] write content for index.html (*Home Page*)
