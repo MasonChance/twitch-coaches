@@ -1,60 +1,66 @@
 
-header, { 
+header{ 
     background-color:navy-blue;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\
+
+}
+
+nav{
+    display:inline;
+    border-top: 20px;
+    padding: 40px;
+
+}
+
+ul{
+    text-align: center;
     
 
 }
 
-nav, {
-
-}
-
-ul, {
-
-}
-
-li, {
+li{
 
 
 }
 
-a, {
+a{
 
 }
 
-.hdrnav, {
+.hdrnav{
 
 }
 
-.ftrnav, {
+.ftrnav{
 
 }
 
-main, {
+main{
 
 }
 
-article, {
+article{
 
 }
 
-#art01, {
+#art01{
 
 }
 
-#art02, {
+#art02{
 
 }
 
-section, {
+section{
 
 }
 
-#sec01, {
+#sec01{
 
 }
 
-#sec01, {
+#sec01{
 
 }
 
