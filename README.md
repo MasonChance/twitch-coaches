@@ -5,18 +5,20 @@ label-element-elementid-page-filetype/ext. if element id is null does not accoun
 
 ## Todo
 [ ] upload img files to twitch-coaches wsl:ubuntu
-[ ] internal page links list in this file under a `###` heading
-[ ] create internal pages using `.html` extenstion
+[x] internal page links list in this file under a `###` heading
+[x] create internal pages using `.html` extenstion
 [ ] write content for index.html (*Home Page*)
 [ ] run ACP via command line
 [ ] submit assignment
 
 ## Image FileName index
-    - header-home-img
-    - article-01-home-img
-    - article-02-home-img
+    - gamer-header-home.jpg
+    - turntable-article01-home.jpg
+    - credentials-article02-home.jpg
+    - placeholder-all-site-img.jpg
+    
 
-## Internal Page Files to create
+### Internal Page Files to create
     - about.html
     - services.html
     - contact.html
