@@ -1,21 +1,23 @@
 
-var name = prompt();
+var name = prompt("Hi!lets get accquainted");
 var message;
-var timeNow = today.getHours();
-var sorry;
 
-if name(){
-    message ='hello'name;
+
+
+if name();{
+    
+     message === "hello"+ name;
+
 }
-else if{
-    message ='lets get acquainted';
-}
-
-    newFunction();
 
 
+// else if{
+//         name();
+   
+// }
 
-function newFunction() {
-    document.write(<h2>'hello''name'</h2>, h2 >);
-}
-/// prompt, confirm, alert, document.write method. 
+   
+
+
+// document.write(<h2>'message + name'</h2>);
+// /// prompt, confirm, alert, document.write method. 
