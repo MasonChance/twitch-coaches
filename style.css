@@ -1,1 +1,52 @@
 
+header{
+    border: 10px;
+    border-color: orange;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    border:10px;
+    list-style: none;
+    padding-top: 20px;
+    margin: 10px;
+    display: inline-table;
+
+}
+
+ul{
+    list-style: none;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li{
+    text-align: center;
+    padding-left: 10%;
+    margin-inline-start: 18px;
+    margin-inline-end: 18px;
+    display: inline-block;
+    
+}
+
+a{
+    text-align: left;
+    display: inline-flex;
+}
+
+#wrapText{
+            margin-left: 15px;
+            padding: 10px;
+            width: 160-px;
+
+
+}
+
+section{
+        word-wrap: normal;
+        position: relative;
+        
+    
+}
