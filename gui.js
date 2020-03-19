@@ -1,23 +1,15 @@
-
-var name = prompt("Hi!lets get accquainted");
-var message;
-
-
-
-if name();{
-    
-     message === "hello"+ name;
-
-}
+//var name = prompt('hi lets get aquainted');
+var today = new Date();
+var gameTime = today.getHours();
 
 
-// else if{
-//         name();
-   
-// }
+// if (name === st){
+//     message = 'hi'+ name + gameTime + 'is always game time!';
+// use a <while> loop to validate for empty string
+// use a if-else to evealuate for greeting change cases
+//  };
 
-   
+
+console.log(getHours);
 
 
-// document.write(<h2>'message + name'</h2>);
-// /// prompt, confirm, alert, document.write method. 
