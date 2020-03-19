@@ -47,6 +47,24 @@ a{
 section{
         word-wrap: normal;
         position: relative;
-        
+
     
+}
+
+h1{
+    font-size: 18px;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+p{
+    background-color: teal;
+    padding: 5px;
+    margin-left: 220px;
+}
+
+img{
+    width: 170px;
+    margin-right: 5px;
 }
