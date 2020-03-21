@@ -1,10 +1,10 @@
 
-// var today = new Date();
-// var gameTime = today.getHours();
-// var tick = today.getMinutes();
-// var message;
-// var greeting = prompt("Hi, let's get accquainted");
-// let error;
+var today = new Date();
+var gameTime = today.getHours();
+var tick = today.getMinutes();
+var message;
+var greeting = prompt("Hi, let's get accquainted");
+let error;
 
 // if(greeting == null || greeting == false){
 //     let error = prompt("you didn't tell me your name");
@@ -27,38 +27,38 @@
 // checks  `error` against null or false returns prompt.
 
 
-function welcome(){
-    var today = new Date();
-    var gameTime = today.getHours();
-    var tick = today.getMinutes();
-    var message;
-    var greeting = prompt("Hi, let's get accquainted");
-    let error;
-    if(greeting == null || greeting == false){
-         let error = prompt("you didn't tell me your name");
-         if(error == null || error == false){
-             let error = "welcome";
-             message = error + gameTime + 'is always game time';
+// function welcome(){
+//     var today = new Date();
+//     var gameTime = today.getHours();
+//     var tick = today.getMinutes();
+//     var message;
+//     var greeting = prompt("Hi, let's get accquainted");
+//     let error;
+//     if(greeting == null || greeting == false){
+//          let error = prompt("you didn't tell me your name");
+//          if(error == null || error == false){
+//              let error = "welcome";
+//              message = error + gameTime + 'is always game time';
              
-             document.write(message);
+//              document.write(message);
     
-         }else{
-            message = error + gameTime + 'is always game time';
+//          }else{
+//             message = error + gameTime + 'is always game time';
             
-            document.write(message);
+//             document.write(message);
     
-         }
-    } else{
+//          }
+//     } else{
        
-       message = greeting + gameTime + "is always game time";
+//        message = greeting + gameTime + "is always game time";
        
-       document.write(message);
+//        document.write(message);
     
 
-    }
-}
+//     }
+// }
 
-welcome();
+// welcome();
 
 
 
@@ -66,12 +66,66 @@ welcome();
 
 // for each iteration of null value in prompt up to 2 iterations, return "error" message; store value entered in prompt pull to output in "message" 
 
+
+
 // function altMessage(){
-//     var error = prompt("I'm sorry I didn't get your name!");
-//     for(var i = 0; i < 2; i++){
-//         let error = prompt("I'm sorry I didn't get your name!");
+    
+//      var i;
+//     for(i = 0; i < 2; i++){
+//         var error = prompt("I'm sorry I didn't get your name!");
+        
 
 //     }
+//             return error;
+// }  
+
+
+
+
+// altMessage();
+
+////////////^^ function for replacing loop above works^^///////
+
+
+
+// if(greeting == null || greeting == false){
+            
+//             // let altGreeting = altMessage();
+
+//             //     let true = "Welcome";
+//             //     message = error + gameTime + 'is always game time';
+//             }else if(altGreeting == null);{
+//                 let altGreeting = altMessage();
+
+//                 document.write(altGreeting + gameTime + "is always game time!");
+
+//             } 
+
+//             document.write(message);
+//             // message = error + gameTime + 'is always game time';{
+
+ 
+    
+            
+
+
+//          message = error + gameTime + 'is always game time';
+//      }else{
+//         message = error + gameTime + 'is always game time';
+//      }
+// }else{
+   
+//    message = greeting + gameTime + "is always game time";
+
 // }
 
+// document.write(message);
 
+
+
+
+while (greeting === ""){
+    
+    greeting = prompt("I'm sorry, I didn't catch your name!");
+}
+document.write("hi"+ greeting);
