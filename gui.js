@@ -1,47 +1,77 @@
-//var min = today.getMinutes();
 
-var today = new Date();
-var gameTime = today.getHours();
-var message;
-var greeting = prompt("Hi, let's get accquainted");
-//var takeTwo = prompt();
-let error;
+// var today = new Date();
+// var gameTime = today.getHours();
+// var tick = today.getMinutes();
+// var message;
+// var greeting = prompt("Hi, let's get accquainted");
+// let error;
 
-if(greeting == null || greeting == false){
-    let error = prompt("you didn't tell me your name");
-     if(error == null || error == false){
-         let error = "welcome";
-         message = error + gameTime + 'is always game time';
-     }else{
-        message = error + gameTime + 'is always game time';
-     }
-}else{
+// if(greeting == null || greeting == false){
+//     let error = prompt("you didn't tell me your name");
+//      if(error == null || error == false){
+//          let error = "welcome";
+//          message = error + gameTime + 'is always game time';
+//      }else{
+//         message = error + gameTime + 'is always game time';
+//      }
+// }else{
    
-   message = greeting + gameTime + "is always game time";
+//    message = greeting + gameTime + "is always game time";
 
+// }
+
+// document.write(message);
+
+/////////////////// ^ code works!!!! ^^^^^^/////////////////////////////////////
+
+// checks  `error` against null or false returns prompt.
+
+
+function welcome(){
+    var today = new Date();
+    var gameTime = today.getHours();
+    var tick = today.getMinutes();
+    var message;
+    var greeting = prompt("Hi, let's get accquainted");
+    let error;
+    if(greeting == null || greeting == false){
+         let error = prompt("you didn't tell me your name");
+         if(error == null || error == false){
+             let error = "welcome";
+             message = error + gameTime + 'is always game time';
+             
+             document.write(message);
+    
+         }else{
+            message = error + gameTime + 'is always game time';
+            
+            document.write(message);
+    
+         }
+    } else{
+       
+       message = greeting + gameTime + "is always game time";
+       
+       document.write(message);
+    
+
+    }
 }
-  
-///////////// above code is close to working but requires a repeat assignment of variable and when the variable is reassigned the value of the prompt variable it does accuire the value of the data entered but rather the value of "true" which is what prints.
 
-document.write(message);
-
-
-//var today = new Date();
-//var time = today.getHours();
-//var gameTime = twitch();
-
-//function twitch(
-    //var clock = sum(time,today.getMinutes);
-    //var greeting = 'hkjhdfkjfahdjk';
+welcome();
 
 
 
 
 
+// for each iteration of null value in prompt up to 2 iterations, return "error" message; store value entered in prompt pull to output in "message" 
 
+// function altMessage(){
+//     var error = prompt("I'm sorry I didn't get your name!");
+//     for(var i = 0; i < 2; i++){
+//         let error = prompt("I'm sorry I didn't get your name!");
 
-
-
-
+//     }
+// }
 
 
