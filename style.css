@@ -10,7 +10,7 @@ header{
 nav{
     border:10px;
     list-style: none;
-    padding-top: 20px;
+    padding-top: 5px;
     margin: 10px;
     display: inline-table;
 
@@ -76,4 +76,12 @@ img{
 #strtline{
     text-align: left;
 
+}
+
+footer{
+    float:bottom;
+}
+#headerp{
+    display:center;
+    text-align:center;
 }
