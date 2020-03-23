@@ -44,12 +44,12 @@ a{
 
 }
 
-section{
+/* section{
         word-wrap: normal;
         position: relative;
 
     
-}
+} */
 
 h1{
     font-size: 18px;
@@ -61,7 +61,7 @@ h1{
 p{
     background-color: teal;
     padding: 5px;
-    margin-left: 220px;
+    margin-left: 20px;
     float: left;
 
 }
@@ -71,4 +71,9 @@ img{
     margin-right: 5px;
     float: left;
     padding-right:3px;
+}
+
+#strtline{
+    text-align: left;
+
 }

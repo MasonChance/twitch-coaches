@@ -84,44 +84,6 @@ let error;
 
 // altMessage();
 
-////////////^^ function for replacing loop above works^^///////
-
-
-
-// if(greeting == null || greeting == false){
-            
-//             // let altGreeting = altMessage();
-
-//             //     let true = "Welcome";
-//             //     message = error + gameTime + 'is always game time';
-//             }else if(altGreeting == null);{
-//                 let altGreeting = altMessage();
-
-//                 document.write(altGreeting + gameTime + "is always game time!");
-
-//             } 
-
-//             document.write(message);
-//             // message = error + gameTime + 'is always game time';{
-
- 
-    
-            
-
-
-//          message = error + gameTime + 'is always game time';
-//      }else{
-//         message = error + gameTime + 'is always game time';
-//      }
-// }else{
-   
-//    message = greeting + gameTime + "is always game time";
-
-// }
-
-// document.write(message);
-
-
 
 
 while (greeting === ""){
